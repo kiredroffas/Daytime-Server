@@ -1,0 +1,8 @@
+#!/bin/sh
+counter=0
+while true
+do
+echo "Ran $counter test"
+./client localhost
+counter=$((counter+1))
+done
